@@ -58,7 +58,7 @@ export default class Coolbutton extends React.Component {
             // If the prop is passed a name that is found on our list of possible classes
             if (this.props[eachKey]) {
 
-                // Append the class name 
+                // Append the class name by having a prop equal the key we want to get the value of
                 classes += " " + legend[eachKey]
             }
         })
